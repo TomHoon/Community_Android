@@ -8,37 +8,29 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff0000"
     android:orientation="vertical"
     android:padding="30px"
     >
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:text="@string/strBtn1"
-        android:layout_margin="12dp"
-        />
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:text="@string/strBtn1"></Button>
-
+    />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="아래에 이름을 입력"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:text="이건 텍스트입니다"
+        android:layout_marginTop="15dp"
+    />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="확인"
-        android:visibility="visible"
-        />
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+    />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="15dp"
+        android:text="버튼 3"
+    />
 
 </LinearLayout>

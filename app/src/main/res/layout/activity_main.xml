@@ -9,28 +9,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="30px"
     >
-    <Button
+    <TextView
+        android:textSize="30dp"
+        android:text="textSize속성"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
     />
     <TextView
+        android:textSize="30dp"
+        android:text="textSize속성"
+        android:textColor="#00FF00"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="이건 텍스트입니다"
-        android:layout_marginTop="15dp"
-    />
-    <Button
+        />
+    <TextView
+        android:textSize="30dp"
+        android:text="textSize속성"
+        android:textStyle="bold|italic"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:text="textSize속성"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:text="textSize속성"
+        android:typeface="serif"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="TextView연습1"
+        android:id="@+id/textView1"
     />
-    <Button
-        android:layout_width="80dp"
-        android:layout_height="550dp"
-        android:layout_marginTop="15dp"
-        android:text="버튼 3"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView연습2"
+        android:textSize="30dp"
+        android:id="@+id/textView2"
     />
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView연습3"
+        android:textSize="30dp"
+        android:id="@+id/textView3"
+    />
 </LinearLayout>
